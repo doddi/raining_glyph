@@ -1,0 +1,7 @@
+[package]
+name = "raining_glyph"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anathema = { git = "https://github.com/togglebyte/anathema/", branch = "main" }
