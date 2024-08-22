@@ -1,5 +1,4 @@
 use std::fs::read_to_string;
-use std::ops::DerefMut;
 use std::time::Duration;
 
 use anathema::backend::Backend;
@@ -138,8 +137,7 @@ impl Component for GlyphColumn {
             state.trail_start.set(0);
         }
 
-        state.glyphs.remove(0);
-        // state.glyphs.remove(state.glyphs.len()-1);
+        state.glyphs.remove(state.glyphs.len()-1);
         state.glyphs.insert(0, Value::new(Glyph::new_random()));
     }
 }
