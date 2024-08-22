@@ -5,3 +5,5 @@ edition = "2021"
 
 [dependencies]
 anathema = { git = "https://github.com/togglebyte/anathema/", branch = "main" }
+colorsys = "0.6.7"
+rand = "0.9.0-alpha.2"
