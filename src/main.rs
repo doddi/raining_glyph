@@ -99,7 +99,7 @@ impl GlyphColumnState {
 
         let mut glyphs = List::empty();
         for _ in 0..height {
-            glyphs.push(Value::new(Glyph::new()));
+            glyphs.push(Value::new(Glyph::new_random()));
         }
 
         GlyphColumnState {
@@ -128,7 +128,7 @@ impl Component for GlyphColumn {
         // });
 
         // Only update the first glyph in the column at a random interval time
-        if state.trail_start.copy_value() == 0 && rand::thread_rng().gen_range(0..100) > 1 {
+        if state.trail_start.copy_value() == 0 && rand::thread_rng().gen_range(0..10) > 1 {
             return;
         }
 
