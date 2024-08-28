@@ -5,7 +5,7 @@ version = 3
 [[package]]
 name = "anathema"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "anathema-backend",
  "anathema-debug",
@@ -22,7 +22,7 @@ dependencies = [
 [[package]]
 name = "anathema-backend"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "anathema-geometry",
  "anathema-state",
@@ -37,12 +37,12 @@ dependencies = [
 [[package]]
 name = "anathema-debug"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 
 [[package]]
 name = "anathema-default-widgets"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "anathema-backend",
  "anathema-geometry",
@@ -57,12 +57,12 @@ dependencies = [
 [[package]]
 name = "anathema-geometry"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 
 [[package]]
 name = "anathema-runtime"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "anathema-backend",
  "anathema-debug",
@@ -79,7 +79,7 @@ dependencies = [
 [[package]]
 name = "anathema-state"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "anathema-debug",
  "anathema-state-derive",
@@ -89,7 +89,7 @@ dependencies = [
 [[package]]
 name = "anathema-state-derive"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "manyhow",
  "quote",
@@ -100,7 +100,7 @@ dependencies = [
 [[package]]
 name = "anathema-store"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "anathema-debug",
 ]
@@ -108,7 +108,7 @@ dependencies = [
 [[package]]
 name = "anathema-templates"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "anathema-debug",
  "anathema-state",
@@ -118,7 +118,7 @@ dependencies = [
 [[package]]
 name = "anathema-widgets"
 version = "0.3.0"
-source = "git+https://github.com/togglebyte/anathema/?branch=main#97bec6f6a27efe4f5a0bd05f02a5fe7a71a67868"
+source = "git+https://github.com/togglebyte/anathema/?branch=dev#742fbd2b3b6e50f97decfd291f0a15d82f47421b"
 dependencies = [
  "anathema-debug",
  "anathema-geometry",
@@ -188,15 +188,15 @@ checksum = "22ec99545bb0ed0ea7bb9b8e1e9122ea386ff8a48c0922e43f36d45ab09e0e80"
 
 [[package]]
 name = "crossterm"
-version = "0.27.0"
+version = "0.28.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f476fe445d41c9e991fd07515a6f463074b782242ccf4a5b7b1d1012e70824df"
+checksum = "829d955a0bb380ef178a640b91779e3987da38c9aea133b20614cfed8cdea9c6"
 dependencies = [
  "bitflags 2.6.0",
  "crossterm_winapi",
- "libc",
- "mio",
+ "mio 1.0.2",
  "parking_lot",
+ "rustix",
  "signal-hook",
  "signal-hook-mio",
  "winapi",
@@ -212,21 +212,20 @@ dependencies = [
 ]
 
 [[package]]
-name = "derive-where"
-version = "1.2.7"
+name = "errno"
+version = "0.3.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "62d671cc41a825ebabc75757b62d3d168c577f9149b2d49ece1dad1f72119d25"
+checksum = "534c5cf6194dfab3db3242765c03bbe257cf92f22b38f6bc0c58d59108a820ba"
 dependencies = [
- "proc-macro2",
- "quote",
- "syn",
+ "libc",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
 name = "filetime"
-version = "0.2.24"
+version = "0.2.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf401df4a4e3872c4fe8151134cf483738e74b67fc934d6532c882b3d24a4550"
+checksum = "35c0522e981e68cbfa8c3f978441a5f34b30b96e146b33cd3359176b50fe8586"
 dependencies = [
  "cfg-if",
  "libc",
@@ -279,6 +278,12 @@ dependencies = [
  "wasi",
  "wasm-bindgen",
 ]
+
+[[package]]
+name = "hermit-abi"
+version = "0.3.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d231dfb89cfffdbc30e7fc41579ed6066ad03abda9e567ccafae602b97ec5024"
 
 [[package]]
 name = "inotify"
@@ -347,6 +352,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "linux-raw-sys"
+version = "0.4.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "78b3ae25bc7c8c38cec158d1f2757ee79e9b3740fbc7ccf0e59e4b08d793fa89"
+
+[[package]]
 name = "lock_api"
 version = "0.4.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -380,7 +391,7 @@ version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c64621e2c08f2576e4194ea8be11daf24ac01249a4f53cd8befcbb7077120ead"
 dependencies = [
- "proc-macro-utils",
+ "proc-macro-utils 0.8.0",
  "proc-macro2",
  "quote",
 ]
@@ -395,6 +406,19 @@ dependencies = [
  "log",
  "wasi",
  "windows-sys 0.48.0",
+]
+
+[[package]]
+name = "mio"
+version = "1.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "80e04d1dcff3aae0704555fe5fee3bcfaf3d1fdf8a7e521d5b9d2b42acb52cec"
+dependencies = [
+ "hermit-abi",
+ "libc",
+ "log",
+ "wasi",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -420,7 +444,7 @@ dependencies = [
  "kqueue",
  "libc",
  "log",
- "mio",
+ "mio 0.8.11",
  "walkdir",
  "windows-sys 0.48.0",
 ]
@@ -475,6 +499,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "proc-macro-utils"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "eeaf08a13de400bc215877b5bdc088f241b12eb42f0a548d3390dc1c56bb7071"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "smallvec",
+]
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.86"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -485,18 +520,18 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.36"
+version = "1.0.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0fa76aaf39101c457836aec0ce2316dbdc3ab723cdda1c6bd4e6ad4208acaca7"
+checksum = "b5b9d34b8991d19d98081b46eacdd8eb58c6f2b201139f7c5f643cc155a633af"
 dependencies = [
  "proc-macro2",
 ]
 
 [[package]]
 name = "quote-use"
-version = "0.8.3"
+version = "0.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "48e96ac59974192a2fa6ee55a41211cf1385c5b2a8636a4c3068b3b3dd599ece"
+checksum = "9619db1197b497a36178cfc736dc96b271fe918875fbf1344c436a7e93d0321e"
 dependencies = [
  "quote",
  "quote-use-macros",
@@ -504,12 +539,11 @@ dependencies = [
 
 [[package]]
 name = "quote-use-macros"
-version = "0.8.3"
+version = "0.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b4c57308e9dde4d7be9af804f6deeaa9951e1de1d5ffce6142eb964750109f7e"
+checksum = "82ebfb7faafadc06a7ab141a6f67bcfb24cb8beb158c6fe933f2f035afa99f35"
 dependencies = [
- "derive-where",
- "proc-macro-utils",
+ "proc-macro-utils 0.10.0",
  "proc-macro2",
  "quote",
  "syn",
@@ -565,6 +599,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "rustix"
+version = "0.38.35"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a85d50532239da68e9addb745ba38ff4612a242c1c7ceea689c4bc7c2f43c36f"
+dependencies = [
+ "bitflags 2.6.0",
+ "errno",
+ "libc",
+ "linux-raw-sys",
+ "windows-sys 0.52.0",
+]
+
+[[package]]
 name = "same-file"
 version = "1.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -596,7 +643,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "34db1a06d485c9142248b7a054f034b349b212551f3dfd19c94d45a754a217cd"
 dependencies = [
  "libc",
- "mio",
+ "mio 1.0.2",
  "signal-hook",
 ]
 
@@ -626,9 +673,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.75"
+version = "2.0.76"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f6af063034fc1935ede7be0122941bafa9bacb949334d090b77ca98b5817c7d9"
+checksum = "578e081a14e0cefc3279b0472138c513f37b41a08d5a3cca9b6e4e8ceb6cd525"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -756,6 +803,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "677d2418bec65e3338edb076e806bc1ec15693c5d0104683f2efe857f61056a9"
 dependencies = [
  "windows-targets 0.48.5",
+]
+
+[[package]]
+name = "windows-sys"
+version = "0.52.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "282be5f36a8ce781fad8c8ae18fa3f9beff57ec1b52cb3de0789201425d9a33d"
+dependencies = [
+ "windows-targets 0.52.6",
 ]
 
 [[package]]
